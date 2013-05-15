@@ -1,0 +1,467 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CF7FF35917435EDD0016392D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7FF35817435EDD0016392D /* Cocoa.framework */; };
+		CF7FF36317435EDD0016392D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF7FF36117435EDD0016392D /* InfoPlist.strings */; };
+		CF7FF36517435EDD0016392D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7FF36417435EDD0016392D /* main.m */; };
+		CF7FF36917435EDD0016392D /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CF7FF36717435EDD0016392D /* Credits.rtf */; };
+		CF7FF36C17435EDD0016392D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7FF36B17435EDD0016392D /* AppDelegate.m */; };
+		CF7FF36F17435EDD0016392D /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = CF7FF36D17435EDD0016392D /* MainMenu.xib */; };
+		CF7FF37717435EDD0016392D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7FF37617435EDD0016392D /* SenTestingKit.framework */; };
+		CF7FF37817435EDD0016392D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF7FF35817435EDD0016392D /* Cocoa.framework */; };
+		CF7FF38017435EDD0016392D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CF7FF37E17435EDD0016392D /* InfoPlist.strings */; };
+		CF7FF38317435EDD0016392D /* JarvisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CF7FF38217435EDD0016392D /* JarvisTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CF7FF37917435EDD0016392D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CF7FF34D17435EDC0016392D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF7FF35417435EDD0016392D;
+			remoteInfo = Jarvis;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CF7FF35517435EDD0016392D /* Jarvis.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jarvis.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7FF35817435EDD0016392D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		CF7FF35B17435EDD0016392D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		CF7FF35C17435EDD0016392D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		CF7FF35D17435EDD0016392D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CF7FF36017435EDD0016392D /* Jarvis-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Jarvis-Info.plist"; sourceTree = "<group>"; };
+		CF7FF36217435EDD0016392D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF7FF36417435EDD0016392D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CF7FF36617435EDD0016392D /* Jarvis-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Jarvis-Prefix.pch"; sourceTree = "<group>"; };
+		CF7FF36817435EDD0016392D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		CF7FF36A17435EDD0016392D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CF7FF36B17435EDD0016392D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CF7FF36E17435EDD0016392D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		CF7FF37517435EDD0016392D /* JarvisTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JarvisTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF7FF37617435EDD0016392D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		CF7FF37D17435EDD0016392D /* JarvisTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JarvisTests-Info.plist"; sourceTree = "<group>"; };
+		CF7FF37F17435EDD0016392D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CF7FF38117435EDD0016392D /* JarvisTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JarvisTests.h; sourceTree = "<group>"; };
+		CF7FF38217435EDD0016392D /* JarvisTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JarvisTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CF7FF35217435EDD0016392D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7FF35917435EDD0016392D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7FF37117435EDD0016392D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7FF37717435EDD0016392D /* SenTestingKit.framework in Frameworks */,
+				CF7FF37817435EDD0016392D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CF7FF34C17435EDC0016392D = {
+			isa = PBXGroup;
+			children = (
+				CF7FF35E17435EDD0016392D /* Jarvis */,
+				CF7FF37B17435EDD0016392D /* JarvisTests */,
+				CF7FF35717435EDD0016392D /* Frameworks */,
+				CF7FF35617435EDD0016392D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CF7FF35617435EDD0016392D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CF7FF35517435EDD0016392D /* Jarvis.app */,
+				CF7FF37517435EDD0016392D /* JarvisTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF7FF35717435EDD0016392D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF7FF35817435EDD0016392D /* Cocoa.framework */,
+				CF7FF37617435EDD0016392D /* SenTestingKit.framework */,
+				CF7FF35A17435EDD0016392D /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CF7FF35A17435EDD0016392D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CF7FF35B17435EDD0016392D /* AppKit.framework */,
+				CF7FF35C17435EDD0016392D /* CoreData.framework */,
+				CF7FF35D17435EDD0016392D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		CF7FF35E17435EDD0016392D /* Jarvis */ = {
+			isa = PBXGroup;
+			children = (
+				CF7FF36A17435EDD0016392D /* AppDelegate.h */,
+				CF7FF36B17435EDD0016392D /* AppDelegate.m */,
+				CF7FF36D17435EDD0016392D /* MainMenu.xib */,
+				CF7FF35F17435EDD0016392D /* Supporting Files */,
+			);
+			path = Jarvis;
+			sourceTree = "<group>";
+		};
+		CF7FF35F17435EDD0016392D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF7FF36017435EDD0016392D /* Jarvis-Info.plist */,
+				CF7FF36117435EDD0016392D /* InfoPlist.strings */,
+				CF7FF36417435EDD0016392D /* main.m */,
+				CF7FF36617435EDD0016392D /* Jarvis-Prefix.pch */,
+				CF7FF36717435EDD0016392D /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CF7FF37B17435EDD0016392D /* JarvisTests */ = {
+			isa = PBXGroup;
+			children = (
+				CF7FF38117435EDD0016392D /* JarvisTests.h */,
+				CF7FF38217435EDD0016392D /* JarvisTests.m */,
+				CF7FF37C17435EDD0016392D /* Supporting Files */,
+			);
+			path = JarvisTests;
+			sourceTree = "<group>";
+		};
+		CF7FF37C17435EDD0016392D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF7FF37D17435EDD0016392D /* JarvisTests-Info.plist */,
+				CF7FF37E17435EDD0016392D /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CF7FF35417435EDD0016392D /* Jarvis */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7FF38617435EDD0016392D /* Build configuration list for PBXNativeTarget "Jarvis" */;
+			buildPhases = (
+				CF7FF35117435EDD0016392D /* Sources */,
+				CF7FF35217435EDD0016392D /* Frameworks */,
+				CF7FF35317435EDD0016392D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Jarvis;
+			productName = Jarvis;
+			productReference = CF7FF35517435EDD0016392D /* Jarvis.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CF7FF37417435EDD0016392D /* JarvisTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF7FF38917435EDD0016392D /* Build configuration list for PBXNativeTarget "JarvisTests" */;
+			buildPhases = (
+				CF7FF37017435EDD0016392D /* Sources */,
+				CF7FF37117435EDD0016392D /* Frameworks */,
+				CF7FF37217435EDD0016392D /* Resources */,
+				CF7FF37317435EDD0016392D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF7FF37A17435EDD0016392D /* PBXTargetDependency */,
+			);
+			name = JarvisTests;
+			productName = JarvisTests;
+			productReference = CF7FF37517435EDD0016392D /* JarvisTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CF7FF34D17435EDC0016392D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "John Shelley";
+			};
+			buildConfigurationList = CF7FF35017435EDC0016392D /* Build configuration list for PBXProject "Jarvis" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF7FF34C17435EDC0016392D;
+			productRefGroup = CF7FF35617435EDD0016392D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CF7FF35417435EDD0016392D /* Jarvis */,
+				CF7FF37417435EDD0016392D /* JarvisTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CF7FF35317435EDD0016392D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7FF36317435EDD0016392D /* InfoPlist.strings in Resources */,
+				CF7FF36917435EDD0016392D /* Credits.rtf in Resources */,
+				CF7FF36F17435EDD0016392D /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7FF37217435EDD0016392D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7FF38017435EDD0016392D /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		CF7FF37317435EDD0016392D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CF7FF35117435EDD0016392D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7FF36517435EDD0016392D /* main.m in Sources */,
+				CF7FF36C17435EDD0016392D /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF7FF37017435EDD0016392D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF7FF38317435EDD0016392D /* JarvisTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CF7FF37A17435EDD0016392D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF7FF35417435EDD0016392D /* Jarvis */;
+			targetProxy = CF7FF37917435EDD0016392D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CF7FF36117435EDD0016392D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7FF36217435EDD0016392D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CF7FF36717435EDD0016392D /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7FF36817435EDD0016392D /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		CF7FF36D17435EDD0016392D /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7FF36E17435EDD0016392D /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		CF7FF37E17435EDD0016392D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CF7FF37F17435EDD0016392D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CF7FF38417435EDD0016392D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CF7FF38517435EDD0016392D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CF7FF38717435EDD0016392D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jarvis/Jarvis-Prefix.pch";
+				INFOPLIST_FILE = "Jarvis/Jarvis-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CF7FF38817435EDD0016392D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jarvis/Jarvis-Prefix.pch";
+				INFOPLIST_FILE = "Jarvis/Jarvis-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CF7FF38A17435EDD0016392D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jarvis.app/Contents/MacOS/Jarvis";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jarvis/Jarvis-Prefix.pch";
+				INFOPLIST_FILE = "JarvisTests/JarvisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		CF7FF38B17435EDD0016392D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Jarvis.app/Contents/MacOS/Jarvis";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Jarvis/Jarvis-Prefix.pch";
+				INFOPLIST_FILE = "JarvisTests/JarvisTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CF7FF35017435EDC0016392D /* Build configuration list for PBXProject "Jarvis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7FF38417435EDD0016392D /* Debug */,
+				CF7FF38517435EDD0016392D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF7FF38617435EDD0016392D /* Build configuration list for PBXNativeTarget "Jarvis" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7FF38717435EDD0016392D /* Debug */,
+				CF7FF38817435EDD0016392D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CF7FF38917435EDD0016392D /* Build configuration list for PBXNativeTarget "JarvisTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7FF38A17435EDD0016392D /* Debug */,
+				CF7FF38B17435EDD0016392D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CF7FF34D17435EDC0016392D /* Project object */;
+}
